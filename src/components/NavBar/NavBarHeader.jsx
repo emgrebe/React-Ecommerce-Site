@@ -1,22 +1,22 @@
 import React from 'react';
 import './NavBar.css';
 
-class NavBar extends React.Component {
+class NavBarHeader extends React.Component {
   render() {
     return (
       <div className='NavBar'>
         <div className='NavBar-gifTitle'>
           <img className='gif' src="https://media0.giphy.com/media/67oWKfh5qtTUZITMHp/source.gif" alt="giftbox-gif" />
-          <h1 className='welcome'>Welcome to the Krazy Kendra Sale</h1>
+          <h2 className='welcome'>Krazy Kendra Sale</h2>
         </div>   
         <div className='NavBar-loginSignup'>
-          <h2>LOGIN</h2>
+          <h3>LOGIN</h3>
         &nbsp;&nbsp; &nbsp;&nbsp;
-        <h2>SIGNUP</h2>
+        <h3>SIGNUP</h3>
       </div>
     </div>
     );
   }
 }
 
-export default NavBar;
+export default NavBarHeader;

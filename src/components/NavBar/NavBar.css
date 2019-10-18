@@ -4,10 +4,19 @@
   align-items: center;
 }
 
+.NavBar {
+  padding: 0 3vh;
+}
+
 .gif {
-  height: 10vh;
+  height: 8vh;
 }
 
 .welcome {
-  margin: 0 5vh;
+  padding-left: 1vh;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
 }
