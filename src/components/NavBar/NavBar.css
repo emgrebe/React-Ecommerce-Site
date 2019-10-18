@@ -3,3 +3,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.gif {
+  height: 10vh;
+}
+
+.welcome {
+  margin: 0 5vh;
+}
