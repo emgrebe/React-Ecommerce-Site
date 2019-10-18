@@ -1,15 +1,15 @@
 import React from 'react';
+import NavBar from './components/NavBar';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Krazy Kendra Sale</h1>
-      </header>
-        <img src="https://media0.giphy.com/media/67oWKfh5qtTUZITMHp/source.gif" alt="giftbox-gif" />
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+      <NavBar />
     </div>
-  );
+    );
+  }
 }
 
 export default App;

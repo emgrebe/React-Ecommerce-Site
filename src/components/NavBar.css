@@ -1,0 +1,5 @@
+.NavBar,.NavBar-gifTitle, .NavBar-loginSignup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
