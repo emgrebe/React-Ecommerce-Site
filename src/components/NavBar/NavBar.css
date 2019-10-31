@@ -1,31 +1,9 @@
-.NavBar,.NavBar-gifTitle, .NavBar-loginSignup {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.NavBar {
+.nav-wrapper {
   background: #36D1DC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding: 0 3vh;
-}
-
-.categories {
-  background: #36D1DC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .gif {
-  height: 8vh;
-}
-
-.welcome {
-  padding-left: 1vh;
-}
-
-.categories {
-  display: flex;
-  justify-content: space-evenly;
+  height: 5vh;
 }

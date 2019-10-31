@@ -1,17 +1,16 @@
 import React from 'react';
-import NavBarHeader from '../../components/NavBar/NavBarHeader';
-import NavBarFooter from '../../components/NavBar/NavBarFooter';
-import WelcomePage from '../WelcomePage/WelcomePage';
+import { BrowserRouter } from 'react-router-dom';
+import NavBar from '../../components/NavBar/NavBar';
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-      <NavBarHeader />
-      <NavBarFooter />
-      <WelcomePage />
-    </div>
+       <BrowserRouter>
+        <NavBar />
+       </BrowserRouter>
+      </div>
     );
   }
 }
