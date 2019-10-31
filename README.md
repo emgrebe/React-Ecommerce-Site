@@ -1,6 +1,6 @@
 Refactored My Original Kendra Website using React and Redux!
 
-![]('https://i.imgur.com/Wx4gxU3.png')
+![](https://i.imgur.com/Wx4gxU3.png)
 
 
 
