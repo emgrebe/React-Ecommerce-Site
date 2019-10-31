@@ -1,3 +1,9 @@
+Refactored My Original Kendra Website using React and Redux!
+
+![]('https://i.imgur.com/Wx4gxU3.png')
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
