@@ -32,3 +32,16 @@ img {
 .item-desc{
   align-self:center;
 }
+
+.card-image, img {
+  height: 50vh;
+}
+
+.card {
+  height: 70vh;
+  font-size: 2vh;
+}
+
+.card-content {
+  text-align: center;
+}
