@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
-import Cart from './components/Cart'
+import Cart from './components/Cart/Cart'
 
 class App extends React.Component {
   render() {
