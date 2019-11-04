@@ -43,7 +43,7 @@ class Cart extends Component{
       }))
       :
       (
-        <p> Nothing.</p>
+        <p>You Haven't Ordered Any Items Yet</p>
       )
   return(
     <div className='container'>

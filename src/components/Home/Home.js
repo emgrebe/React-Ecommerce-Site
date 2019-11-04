@@ -27,7 +27,7 @@ class Home extends Component {
     })
     return (
       <div className='container'>
-        <h3 className='center'>Our Items</h3>
+        <h5 className='center'>Available Items</h5>
         <div className='box'>
           {itemList}
         </div>
